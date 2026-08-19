@@ -1,0 +1,30 @@
+{
+    "Zero-Shot": {
+        "rouge1": 26.24,
+        "rouge2": 6.43,
+        "rougeL": 18.53,
+        "rougeLsum": 19.13
+    },
+    "Few-Shot": {
+        "rouge1": 21.93,
+        "rouge2": 5.67,
+        "rougeL": 15.38,
+        "rougeLsum": 16.96
+    },
+    "Chain-of-Thought": {
+        "rouge1": 24.58,
+        "rouge2": 6.31,
+        "rougeL": 18.28,
+        "rougeLsum": 18.2
+    },
+    "LoRA_FineTuned": {
+        "rouge1": 27.66,
+        "rouge2": 10.12,
+        "rougeL": 19.64,
+        "rougeLsum": 19.78
+    },
+    "Efficiency": {
+        "Avg_Tokens_Per_Sec": 17.24,
+        "Peak_VRAM_GB": 7.54
+    }
+}
