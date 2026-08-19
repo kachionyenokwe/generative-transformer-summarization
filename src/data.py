@@ -12,5 +12,5 @@ def set_seed(seed=42):
     torch.cuda.manual_seed_all(seed)
 
 def load_samsum_data():
-    dataset = load_dataset("samsum")
+    dataset = load_dataset("Samsung/samsum")
     return dataset
